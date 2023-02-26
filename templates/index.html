@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+    <link href="../stylesheet/style.css" rel="stylesheet">
+    <script type="module" src="../js/App.js" defer></script>
+</head>
+<body>
+    <div>
+        <div><a href="" id="all_item">Tout le planning</a></div>
+        <div><a href="" id="item_live">En cours</a></div>
+        <div><a href="" id="completed_item">Terminé</a></div>
+    </div>
+    <main>
+        <form id="form" method="post">
+            <label for="item"></label>
+            <input type="text" id="item" name="item" placeholder="exemple: rendez-vous... " value="">
+            <input type="submit" value="Ajouter" id="button">
+        </form>
+        <section id="item_articles">
+            <article class="items">
+                <input type="checkbox" class="choice">
+                <div > Rendez à 20h : avec M. Dramé</div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
